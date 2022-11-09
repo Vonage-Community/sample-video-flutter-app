@@ -101,7 +101,7 @@ class _CallWidgetState extends State<CallWidget> {
     dynamic params = {'publishAudio': _publishAudio};
 
     try {
-      await platformMethodChannel.invokeMethod('publishAudio', params);
+      await platformMethodChannel.invokeMethod('toggleAudio', params);
     } on PlatformException catch (e) {
       if (kDebugMode) {
         print(e);
