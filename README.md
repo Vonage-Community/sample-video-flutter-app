@@ -1,5 +1,7 @@
 # OpenTok Flutter Sample
 
+## Please note this is a community supported repository and is not offically supported by Vonage. If you face any problems with the code in this repository please raise an issue and someone from the community will take a look when available. 
+
 This project provides a sample Flutter project that highlights how to make use of the Android and iOS OpenTok SDK features within a cross platform flutter application.
 
 ## Setup flutter SDK
