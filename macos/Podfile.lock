@@ -1,0 +1,27 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - VonageClientSDKVideoMacOS (2.24.0):
+    - VonageWebRTC (= 99.2.39)
+  - VonageWebRTC (99.2.39)
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - VonageClientSDKVideoMacOS
+
+SPEC REPOS:
+  trunk:
+    - VonageClientSDKVideoMacOS
+    - VonageWebRTC
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  FlutterMacOS: ae6af50a8ea7d6103d888583d46bd8328a7e9811
+  VonageClientSDKVideoMacOS: b4dbaed5dff00ee302ab84ac366d31eb9bd9c812
+  VonageWebRTC: 4b57187170ef4ea435006e932600646a0521d6b0
+
+PODFILE CHECKSUM: 6414e4a150a158ac379f8f522e8fdfabe54c0483
+
+COCOAPODS: 1.11.3
